@@ -24,3 +24,23 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
+
+.light-blue.lighten-1 {
+	background-color: #333333 !important;
+}
+
+.header.center.orange-text {
+	color: black !important;
+}
+
+#download-button {
+	background-color: black !important;
+}
+
+.page-footer.orange {
+	background-color:#333333 !important;
+}
+
+.footer-copyright {
+	background-color:black !important;
+}
