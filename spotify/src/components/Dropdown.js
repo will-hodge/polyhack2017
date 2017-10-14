@@ -1,8 +1,6 @@
 import React from 'react';
-import ToolboxDropdown from 'react-toolbox/lib/button/Dropdown';
+import ToolboxDropdown from 'react-toolbox/lib/dropdown';
 
-class Dropdown extends ToolboxDropdown {
-
+class Dropdown extends React.Component {
+        
 }
-
-export default Dropdown;

@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Brady from '../images/sex.jpg';
-import Dropdown from './Dropdown';
+import Dropdown from 'react-toolbox/lib/dropdown';
 
 class App extends React.Component {
   render() {
