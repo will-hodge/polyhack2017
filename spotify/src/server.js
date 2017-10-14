@@ -1,8 +1,8 @@
-var express = require('express'); // Express web server framework
-var request = require('request'); // "Request" library
-var querystring = require('querystring');
-var cookieParser = require('cookie-parser');
+import express from 'express';
+import request from 'request';
+import querystring from 'querystring';
+import cookieParser from 'cookie-parser';
 
-var client_id = 'CLIENT_ID'; // Your client id
-var client_secret = 'CLIENT_SECRET'; // Your secret
-var redirect_uri = 'REDIRECT_URI'; // Your redirect uri
+let client_id = 'CLIENT_ID'; // Your client id
+let client_secret = 'CLIENT_SECRET'; // Your secret
+let redirect_uri = 'REDIRECT_URI'; // Your redirect uri

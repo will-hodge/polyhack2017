@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "create-react-app": "^1.4.1",
     "express": "^4.16.2",
     "querystring": "^0.2.0",
     "react": "^16.0.0",
@@ -13,9 +12,17 @@
     "request": "^2.83.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+    "start": "nodemon --exec babel-node server.js --ignore public/",
+    "dev": "webpack -wd",
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "eslint-plugin-react": "^7.4.0",
+    "nodemon": "^1.12.1",
+    "webpack": "^3.7.1"
+  },
+  "author": "",
+  "license": "ISC"
 }
