@@ -15,7 +15,7 @@
     "start": "nodemon --exec babel-node server.js --ignore public/",
     "dev": "webpack -wd",
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "description":,
   "main": "index.js",
   "devDependencies": {
     "eslint": "^4.8.0",
