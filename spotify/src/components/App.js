@@ -1,13 +1,12 @@
 import React from 'react';
 import './App.css';
-import Brady from '../images/sex.jpg';
-import Dropdown from 'react-toolbox/lib/dropdown';
+import AppBar from './AppBar';
 
 class App extends React.Component {
   render() {
     return (
       <div>
-      <Dropdown />
+      <AppBar />
       <div className="App">
         <header className="App-header">
           <img src={Brady} className="App-logo" alt="logo" />
